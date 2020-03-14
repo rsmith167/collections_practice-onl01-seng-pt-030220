@@ -26,5 +26,15 @@ def kesha_maker(array)
   end
 end
 def find_a(array)
-
+array.select do |word| word.start_with?("a")
+end
+def sum_array(array)
+  
+end
+def add_s(array)
+  array.each_with_index.collect do |word, index|
+    if index != 1
+      word << "s"
+    end
+  end
 end

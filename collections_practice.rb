@@ -32,6 +32,13 @@ array.select do |word| word.start_with?("a")
 end
 end
 def sum_array(array)
+  i= 0
+  sum = 0
+  while i < array.length
+  sum = sum + array[i]
+  i+=1
+end
+sum
   
 end
 def add_s(array)
